@@ -14,13 +14,63 @@
   padding: 0;
 }
 
-
 body {
   background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-main);
   line-height: 1.6;
   padding: 2rem;
+}
+
+.home {
+  padding: 2rem;
+  text-align: center;
+}
+
+.laptop {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.laptop h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.laptop p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.laptop-image {
+  border-radius: 12px;
+}
+
+.about {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.perfil {
+  max-width: 600px;
+  text-align: center;
+}
+
+.logo-image {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #444;
 }
 
 .footer {
